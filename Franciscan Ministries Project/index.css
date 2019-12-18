@@ -1,0 +1,112 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;  
+    background-color: darkgray;  
+}
+
+img.logo {
+    background-color: gainsboro;
+    width: 50px;
+    height: 50px;
+}
+
+section.banner {
+    width: inherit;
+    height: 80vh;
+    background-color: lightgray;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.content-wrapper {
+    padding: 15px;
+}
+
+.content-wrapper h4 {
+    text-transform: uppercase;
+}
+
+.content-wrapper p {
+    font-size: 1.12em;
+    line-height: 140%;
+}
+
+span.banner-inner-text {
+    font-weight: bold;
+} 
+
+/* --- CTA --- */
+
+button.cta-banner {
+    padding: 15px;
+}
+
+form button {
+    width: 40%;
+}
+
+button.cta-banner,
+form button {
+    background-color: #5da7d7;
+    font-size: 16px;
+    border-radius: 40px;
+    border-color: transparent;
+    color: white;
+}
+
+button.cta-banner:hover {
+    background-color: #0491ec;
+}
+
+/* --- Form --- */
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, 
+form select {
+    width: 80%;
+}
+
+form input,
+form select,
+form button {
+    margin: 5px auto;
+}
+
+/* --- Main Section --- */
+section.main {
+    height: 100vh;
+}
+
+div.main-logo {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 25px auto;
+}
+
+section.main h2 {
+    text-transform: capitalize;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+section.main p {
+    width: 85%;
+    line-height: 140%;
+    margin: 15px auto;
+    text-align: justify;
+}
