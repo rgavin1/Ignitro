@@ -71,6 +71,8 @@ form {
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: darkgrey;
+    padding: 10px 0;
 }
 
 form input, 
