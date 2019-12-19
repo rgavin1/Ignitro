@@ -1,5 +1,4 @@
 html, body {
-    height: 100vh;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -86,10 +85,6 @@ form button {
 }
 
 /* --- Main Section --- */
-section.main {
-    height: 100vh;
-}
-
 div.main-logo {
     height: 250px;
     width: 250px;
@@ -109,4 +104,117 @@ section.main p {
     line-height: 140%;
     margin: 15px auto;
     text-align: justify;
+}
+
+
+div.amenities-cards > * {
+    width: 80%;
+    height: 325px;
+    background-color: darkgrey;
+    margin: 15px auto;
+    text-align: center;
+}
+
+div.card > div {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+div.card h4 {
+    text-transform: capitalize;
+    width: 80%;
+    margin: 15px auto;
+}
+
+section.banner-two {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+section.banner-two button {
+    background-color: #faa41c;
+    border-radius: 40px;
+    font-size: 16px;
+    box-shadow: black 1px 2px 2px 0px;
+    padding: 8px 30px;
+    color: white;
+}
+
+/* --- Floor Plans --- */
+section.floor-plans {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+/* --- Contact --- */
+section.contact .map {
+    height: 475px;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 25px;
+}
+
+div.map div.contact-information {
+    text-align: center;
+    width: 100%;
+    height: 325px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.info-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+div.info-wrapper > * {
+    margin: 15px 0;
+}
+
+
+div.contact-information h4 {
+    margin: auto;
+    text-transform: capitalize;
+    text-align: start;
+    
+}
+
+div.contact-information p {
+    text-align: start;
+}
+
+div.contact-information button {
+    background-color: #5da7d7;
+    border-color: transparent;
+    border-radius: 40px;
+    width: 160px;
+    height: 30px;
+}
+
+div.contact-via {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div.contact-via > div {
+    margin: 5px 0;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: darkgray;
 }
